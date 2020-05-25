@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sarthakmishra.studysit.aboutcard">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:background="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/Golden"
+        android:textSize="17.5sp"
+        android:scrollbars="vertical"
+        android:text="@string/about"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="68dp" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StudySIT</string>
+    <string name="SECA">
+        \nQuiz-1 :\t\t\t24/01/2018\n<B>Test-1 :</B>\t\t\t17/02/2018\nQuiz-2 :\t\t\t04/03/2018\nQuiz-3 :\t\t\t20/03/2018\n<B>Test-2 :</B>\t\t\t26/03/2018\nQuiz-4 :\t\t\t15/04/2018\n\n<B>SEMESTER END EXAMINATION</B>\t\t\t\t\t\t\t\t\t28/04/2018\n\n\n\nNOTE: Dates provided are tentative
+    </string>
+    <string name="about">The purpose and main aim of developing "StudySIT" app may be the missing piece of many unfinished projects, to help all the students of SIT on the parameter of acedemics.\nStudySIT includes a tab as "Study Materials" providing all the suitable resources in a unified way, such as notes, past question papers,\nsolutions etc. in pdf format thus improving readability as well.\nAnother tab "Exam details" provides the actual acedemic schedule at one place for students of al branches and years.\nThis app has a portal of announcement done by the college.\nThis app features the knowledge of merit status of an individual directly through the college website.\n
+    \n\nApp developed by :\nSARTHAK MISHRA(1SI17CS097)\nContact no: 08726341811\n\nKumarguru V.(1SI17IS019)
+
+
+
+    </string>
+</resources>

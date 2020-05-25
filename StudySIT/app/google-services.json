@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "842167878093",
+    "firebase_url": "https://studysit-232ba.firebaseio.com",
+    "project_id": "studysit-232ba",
+    "storage_bucket": "studysit-232ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842167878093:android:d0a97ed50d176ee6",
+        "android_client_info": {
+          "package_name": "com.example.sarthakmishra.studysit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842167878093-429jbjmsqcue28c28d9vsi4n1msla32c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarthakmishra.studysit",
+            "certificate_hash": "116f836280120fadfcb399afd59567a09f628200"
+          }
+        },
+        {
+          "client_id": "842167878093-7s28r26fi5v2atek75le159t2t3f8ev4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmc-5fzXhiojt55u9yCwvUp8-hy3fn854"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842167878093-7s28r26fi5v2atek75le159t2t3f8ev4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

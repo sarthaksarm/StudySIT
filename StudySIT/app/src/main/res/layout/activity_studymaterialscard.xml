@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/academics"
+    tools:context="com.example.sarthakmishra.studysit.studymaterialscard">
+
+
+    <Button
+        android:id="@+id/firstyr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="open"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:text="FIRST YEAR" />
+
+    <Button
+        android:id="@+id/secondyr"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:onClick="open2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstyr"
+        android:layout_marginTop="33dp"
+        android:text="SECOND YEAR" />
+
+    <Button
+        android:id="@+id/thirdyr"
+        android:layout_width="match_parent"
+        android:onClick="open3"
+        android:layout_height="60dp"
+        android:layout_below="@+id/secondyr"
+        android:layout_marginTop="33dp"
+        android:text="THIRD YEAR" />
+
+    <Button
+        android:id="@+id/fourthyr"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:onClick="open4"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/thirdyr"
+        android:layout_marginTop="28dp"
+        android:text="FOURTH YEAR" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="back"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/studymaterial" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textClock"
+        android:layout_centerHorizontal="true"
+        android:text="CHOOSE THE YEAR :"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

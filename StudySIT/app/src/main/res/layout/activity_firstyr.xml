@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashback"
+    tools:context="com.example.sarthakmishra.studysit.Firstyr">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="CHOOSE YOUR SECTION:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/btna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnb"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:text="A"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnd"
+        android:layout_below="@+id/btna"
+        android:layout_marginTop="10dp"
+        android:text="B"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnb"
+        android:layout_below="@+id/btnb"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="C"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnd"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btne"
+        android:layout_below="@+id/btnc"
+        android:text="D"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnd"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="10dp"
+        android:text="E"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btne"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="UPLOAD/DOWNLOAD FILES"
+        android:textSize="25sp" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="back"
+        app:srcCompat="@drawable/studymaterial" />
+
+</RelativeLayout>
